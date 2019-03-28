@@ -1,0 +1,1302 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Biblia</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800|Playfair+Display:,300, 400, 700" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mediaelement@4.2.7/build/mediaelementplayer.min.css">
+
+  <link rel="stylesheet" href="fonts/ionicons/css/ionicons.min.css">
+  <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css">
+
+
+  <!-- Theme Style -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <style>
+    h3{
+      color:#856404;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header role="banner">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Pasos de Fe</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05"
+          aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample05">
+          <ul class="navbar-nav ml-auto pl-lg-5 pl-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">Quienes somos</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="ministries.html" id="dropdown04" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">Ministerios</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown04">
+                <a class="dropdown-item" href="escuelaninos.html">Escuela de Niños</a>
+                <a class="dropdown-item" href="ministeriovarones.html">Varones</a>
+                <a class="dropdown-item" href="ministeriodamas.html">Damas</a>
+                <a class="dropdown-item" href="ministerioalabanza.html">Alabanza</a>
+                <a class="dropdown-item" href="ministerioayudas.html">Ayudas</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="ministries.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Escuelas de formación</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown04">
+                  <a class="dropdown-item" href="escueladiscipulado.html">Discipulado</a>
+                  <a class="dropdown-item" href="escueladiaconado.html">Diaconado</a>
+                  <a class="dropdown-item" href="escuelaliderazgo.html">Liderazgo</a>
+                  <a class="dropdown-item" href="institutobiblico.html">Instituto Bíblico</a>
+                </div>
+             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="events.html">Eventos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contáctenos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Biblia.html">Biblia</a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- END header -->
+
+  <section class="home-slider owl-carousel">
+
+    <div class="slider-item" style="background-image: url('img/quienes.jpg');">
+      <div class="container">
+        <div class="row slider-text align-items-center justify-content-center">
+          <div class="col-md-8 text-center col-sm-12 element-animate">
+            <!-- <h1>Children's Ministry</h1> -->
+            <!-- <input type="text" id="txtBusqueda" placeholder="Ingresa tu búsqueda"/> -->
+            <div class="form-group">
+              <!-- <label for="txtBusqueda">Búsqueda</label> -->
+              <!-- <input type="text" class="form-control" id="txtBusqueda" aria-describedby="txtBusquedaTips" placeholder="Ingresa cualquier aspecto de búsqueda">
+              <small id="txtBusquedaTips" class="form-text text-muted">"Lámpara es a mis pies tu palabra, Y lumbrera a
+                mi camino."</small> -->
+            </div>
+            <h2 class="mb-4">“Lámpara es a mis pies tu palabra, Y lumbrera a mi camino.” <p>— Salmos. 119:105</p>
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+  <!-- END slider -->
+
+  <section class="section pt-md-5 pb-md-5">
+    <div class="container">
+      <!-- <div class="row mb-5 justify-content-center element-animate">
+        <div class="col-md-12">
+          <span class="section-heading">Children Ministries</span>
+          <h2>"Train up a child in the way he should go: and when he is old, he will not depart from it." &mdash;
+            Proverbs 22:6 KJV</h2>
+        </div>
+      </div> -->
+      <div class="row" id="dvLibros">
+        <div class="col-md-6">
+          <span id="spnAntiguo" class="section-heading" style="cursor:pointer" onclick="AbrirTestamento(this)">Antiguo
+            Testamento</span>
+          <span id="spnNuevo" class="section-heading" style="cursor:pointer" onclick="AbrirTestamento(this)">Nuevo
+            Testamento</span>
+          <input type="text" class="form-control" id="txtBusqueda" aria-describedby="txtBusquedaTips" placeholder="Ingresa cualquier aspecto de búsqueda">
+          <br>
+          <div id="dvAntiguoT" style="overflow: scroll;height: 507px;">
+            <ul>
+              <li noLibro="1" cantCap="50" onclick="PintarCapitulos(this)" class="list-group-item list-group-item-action list-group-item-warning"
+                style="cursor:pointer">
+                <h3>Génesis</h3>
+              </li>
+              <li noLibro="2" cantCap="40" onclick="PintarCapitulos(this)" class="list-group-item list-group-item-action list-group-item-warning" 
+                style="cursor:pointer">
+                <h3>Éxodo</h3>
+              </li>
+              <li noLibro="3" cantCap="27" onclick="PintarCapitulos(this)" class="list-group-item list-group-item-action list-group-item-warning" 
+              style="cursor:pointer">
+                <h3>Levítico</h3>
+              </li>
+              <li noLibro="4" cantCap="36" onclick="PintarCapitulos(this)" class="list-group-item list-group-item-action list-group-item-warning" 
+              style="cursor:pointer">
+                <h3>Números</h3>
+              </li>
+              <li noLibro="5" cantCap="34" onclick="PintarCapitulos(this)" class="list-group-item list-group-item-action list-group-item-warning" 
+              style="cursor:pointer">
+                <h3>Deuteronomio</h3>
+              </li>
+              <li noLibro="6" cantCap="24" onclick="PintarCapitulos(this)" class="list-group-item list-group-item-action list-group-item-warning" 
+              style="cursor:pointer">
+                <h3>Josué</h3>
+              </li>
+              <li noLibro="7" cantCap="21" onclick="PintarCapitulos(this)" class="list-group-item list-group-item-action list-group-item-warning" 
+              style="cursor:pointer">
+                <h3>Jueces
+              </li>
+              <li noLibro="8" cantCap="4" onclick="PintarCapitulos(this)" class="list-group-item list-group-item-action list-group-item-warning" 
+              style="cursor:pointer">
+                <h3>Rut</h3>
+              </li>
+              <li noLibro="9" cantCap="31" onclick="PintarCapitulos(this)" class="list-group-item list-group-item-action list-group-item-warning" 
+              style="cursor:pointer">
+                <h3>1 Samuel</h3>
+              </li>
+              <li noLibro="10" cantCap="24" onclick="PintarCapitulos(this)" class="list-group-item list-group-item-action list-group-item-warning"
+                style="cursor:pointer">
+                <h3> 2 Samuel</h3>
+              </li>
+              <li noLibro="11" cantCap="22" onclick="PintarCapitulos(this)" class="list-group-item list-group-item-action list-group-item-warning"
+                style="cursor:pointer">
+                <h3>1 Reyes</h3>
+              </li>
+              <li noLibro="12" cantCap="25" onclick="PintarCapitulos(this)" class="list-group-item list-group-item-action list-group-item-warning"
+                style="cursor:pointer">
+                <h3>2 Reyes</h3>
+              </li>
+              <li noLibro="13" cantCap="29" onclick="PintarCapitulos(this)" class="list-group-item list-group-item-action list-group-item-warning"
+                style="cursor:pointer">
+                <h3>1 Crónicas</h3>
+              </li>
+              <li noLibro="14" cantCap="36" onclick="PintarCapitulos(this)" class="list-group-item list-group-item-action list-group-item-warning"
+                style="cursor:pointer">
+                <h3>2 Crónicas</h3>
+              </li>
+              <li noLibro="15" cantCap="10" onclick="PintarCapitulos(this)" class="list-group-item list-group-item-action list-group-item-warning"
+                style="cursor:pointer">
+                <h3>Esdras</h3>
+              </li>
+              <li noLibro="16" cantCap="13" onclick="PintarCapitulos(this)" class="list-group-item list-group-item-action list-group-item-warning"
+                style="cursor:pointer">
+                <h3>Nehemías</h3>
+              </li>
+              <li noLibro="17" cantCap="10" onclick="PintarCapitulos(this)" class="list-group-item list-group-item-action list-group-item-warning"
+                style="cursor:pointer">
+                <h3>Ester</h3>
+              </li>
+              <li noLibro="18" cantCap="42" onclick="PintarCapitulos(this)" class="list-group-item list-group-item-action list-group-item-warning"
+                style="cursor:pointer">
+                <h3>Job</h3>
+              </li>
+              <li noLibro="19" cantCap="150" onclick="PintarCapitulos(this)" class="list-group-item list-group-item-action list-group-item-warning"
+                style="cursor:pointer">
+                <h3>Salmos</h3>
+              </li>
+              <li noLibro="20" cantCap="31" onclick="PintarCapitulos(this)" class="list-group-item list-group-item-action list-group-item-warning"
+                style="cursor:pointer">
+                <h3>Proverbios</h3>
+              </li>
+              <li noLibro="21" cantCap="12" onclick="PintarCapitulos(this)" class="list-group-item list-group-item-action list-group-item-warning"
+                style="cursor:pointer">
+                <h3>Eclesiastés</h3>
+              </li>
+              <li noLibro="22" cantCap="8" onclick="PintarCapitulos(this)" class="list-group-item list-group-item-action list-group-item-warning" style="cursor:pointer">
+                <h3>Cantares</h3>
+              </li>
+              <li noLibro="23" cantCap="66" onclick="PintarCapitulos(this)" class="list-group-item list-group-item-action list-group-item-warning"
+                style="cursor:pointer">
+                <h3>Isaías</h3>
+              </li>
+              <li noLibro="24" cantCap="52" onclick="PintarCapitulos(this)" class="list-group-item list-group-item-action list-group-item-warning"
+                style="cursor:pointer">
+                <h3>Jeremías</h3>
+              </li>
+              <li noLibro="25" cantCap="5" onclick="PintarCapitulos(this)" class="list-group-item list-group-item-action list-group-item-warning" style="cursor:pointer">
+                <h3>Lamentaciones</h3>
+              </li>
+              <li noLibro="26" cantCap="48" onclick="PintarCapitulos(this)" class="list-group-item list-group-item-action list-group-item-warning"
+                style="cursor:pointer">
+                <h3>Ezequiel</h3>
+              </li>
+              <li noLibro="27" cantCap="12" onclick="PintarCapitulos(this)" class="list-group-item list-group-item-action list-group-item-warning"
+                style="cursor:pointer">
+                <h3>Daniel</h3>
+              </li>
+              <li noLibro="28" cantCap="14" onclick="PintarCapitulos(this)" class="list-group-item list-group-item-action list-group-item-warning"
+                style="cursor:pointer">
+                <h3>Oseas</h3>
+              </li>
+              <li noLibro="29" cantCap="3" onclick="PintarCapitulos(this)" class="list-group-item list-group-item-action list-group-item-warning" style="cursor:pointer">
+                <h3>Joel</h3>
+              </li>
+              <li noLibro="30" cantCap="9" onclick="PintarCapitulos(this)" class="list-group-item list-group-item-action list-group-item-warning" style="cursor:pointer">
+                <h3>Amós</h3>
+              </li>
+              <li noLibro="31" cantCap="1" onclick="PintarCapitulos(this)" class="list-group-item list-group-item-action list-group-item-warning" style="cursor:pointer">
+                <h3>Abdías</h3>
+              </li>
+              <li noLibro="32" cantCap="4" onclick="PintarCapitulos(this)" class="list-group-item list-group-item-action list-group-item-warning" style="cursor:pointer">
+                <h3>Jonás</h3>
+              </li>
+              <li noLibro="33" cantCap="7" onclick="PintarCapitulos(this)" class="list-group-item list-group-item-action list-group-item-warning" style="cursor:pointer">
+                <h3>Miqueas</h3>
+              </li>
+              <li noLibro="34" cantCap="3" onclick="PintarCapitulos(this)" class="list-group-item list-group-item-action list-group-item-warning" style="cursor:pointer">
+                <h3>Nahúm</h3>
+              </li>
+              <li noLibro="35" cantCap="3" onclick="PintarCapitulos(this)" class="list-group-item list-group-item-action list-group-item-warning" style="cursor:pointer">
+                <h3>Habacuc</h3>
+              </li>
+              <li noLibro="36" cantCap="3" onclick="PintarCapitulos(this)" class="list-group-item list-group-item-action list-group-item-warning" style="cursor:pointer">
+                <h3>Sofonías</h3>
+              </li>
+              <li noLibro="37" cantCap="2" onclick="PintarCapitulos(this)" class="list-group-item list-group-item-action list-group-item-warning" style="cursor:pointer">
+                <h3>Hageo</h3>
+              </li>
+              <li noLibro="38" cantCap="14" onclick="PintarCapitulos(this)" class="list-group-item list-group-item-action list-group-item-warning"
+                style="cursor:pointer">
+                <h3>Zacarías</h3>
+              </li>
+              <li noLibro="39" cantCap="4" onclick="PintarCapitulos(this)" class="list-group-item list-group-item-action list-group-item-warning" style="cursor:pointer">
+                <h3>Malaquías</h3>
+              </li>
+            </ul>
+          </div>
+
+          <div id="dvNuevoT" style="overflow: scroll;height: 507px; display: none">
+            <ul>
+              <li class="list-group-item list-group-item-action list-group-item-warning" style="cursor:pointer">
+                <h3>Mateo</h3>
+              </li>
+              <li class="list-group-item list-group-item-action list-group-item-warning" style="cursor:pointer">
+                <h3>Marcos</h3>
+              </li>
+              <li class="list-group-item list-group-item-action list-group-item-warning" style="cursor:pointer">
+                <h3>Lucas</h3>
+              </li>
+              <li class="list-group-item list-group-item-action list-group-item-warning" style="cursor:pointer">
+                <h3>Juan</h3>
+              </li>
+              <li class="list-group-item list-group-item-action list-group-item-warning" style="cursor:pointer">
+                <h3>Hechos</h3>
+              </li>
+              <li class="list-group-item list-group-item-action list-group-item-warning" style="cursor:pointer">
+                <h3>Romanos</h3>
+              </li>
+              <li class="list-group-item list-group-item-action list-group-item-warning" style="cursor:pointer">
+                <h3>1 Corintios</h3>
+              </li>
+              <li class="list-group-item list-group-item-action list-group-item-warning" style="cursor:pointer">
+                <h3>2 Corintios</h3>
+              </li>
+              <li class="list-group-item list-group-item-action list-group-item-warning" style="cursor:pointer">
+                <h3>Gálatas</h3>
+              </li>
+              <li class="list-group-item list-group-item-action list-group-item-warning" style="cursor:pointer">
+                <h3>Efesios</h3>
+              </li>
+              <li class="list-group-item list-group-item-action list-group-item-warning" style="cursor:pointer">
+                <h3>Filipenses</h3>
+              </li>
+              <li class="list-group-item list-group-item-action list-group-item-warning" style="cursor:pointer">
+                <h3>Colosenses</h3>
+              </li>
+              <li class="list-group-item list-group-item-action list-group-item-warning" style="cursor:pointer">
+                <h3>1 Tesalonicenses</h3>
+              </li>
+              <li class="list-group-item list-group-item-action list-group-item-warning" style="cursor:pointer">
+                <h3>2 Tesalonicenses</h3>
+              </li>
+              <li class="list-group-item list-group-item-action list-group-item-warning" style="cursor:pointer">
+                <h3>1 Timoteo</h3>
+              </li>
+              <li class="list-group-item list-group-item-action list-group-item-warning" style="cursor:pointer">
+                <h3>2 Timoteo</h3>
+              </li>
+              <li class="list-group-item list-group-item-action list-group-item-warning" style="cursor:pointer">
+                <h3>Tito</h3>
+              </li>
+              <li class="list-group-item list-group-item-action list-group-item-warning" style="cursor:pointer">
+                <h3>Filemón</h3>
+              </li>
+              <li class="list-group-item list-group-item-action list-group-item-warning" style="cursor:pointer">
+                <h3>Hebreos</h3>
+              </li>
+              <li class="list-group-item list-group-item-action list-group-item-warning" style="cursor:pointer">
+                <h3>Santiago</h3>
+              </li>
+              <li class="list-group-item list-group-item-action list-group-item-warning" style="cursor:pointer">
+                <h3>1 Pedro</h3>
+              </li>
+              <li class="list-group-item list-group-item-action list-group-item-warning" style="cursor:pointer">
+                <h3>2 Pedro</h3>
+              </li>
+              <li class="list-group-item list-group-item-action list-group-item-warning" style="cursor:pointer">
+                <h3>1 Juan</h3>
+              </li>
+              <li class="list-group-item list-group-item-action list-group-item-warning" style="cursor:pointer">
+                <h3>2 Juan</h3>
+              </li>
+              <li class="list-group-item list-group-item-action list-group-item-warning" style="cursor:pointer">
+                <h3>3 Juan</h3>
+              </li>
+              <li class="list-group-item list-group-item-action list-group-item-warning" style="cursor:pointer">
+                <h3>Judas</h3>
+              </li>
+              <li class="list-group-item list-group-item-action list-group-item-warning" style="cursor:pointer">
+                <h3>Apocalipsis</h3>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div id="dvContenedorGeneralBiblia" class="col-md-6">
+            
+        </div>
+      </div>
+      <div class="row">
+      </div>
+    </div>
+  </section>
+  <!-- END section -->
+
+  <section class="section">
+    <div class="container">
+      <div class="row mb-5 justify-content-center element-animate">
+        <div class="col-md-12">
+          <span class="section-heading">Officers</span>
+          <h2>Officers For Children Ministries</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="media pastor d-block text-center">
+            <img src="img/pastor_1.jpg" alt="Image placeholder" class="img-fluid mb-4">
+            <div class="media-body">
+              <h3>Luis Matthew</h3>
+              <p class="position">Head of Children Ministry</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat vel nam natus dolore fugit, dolores
+                explicabo nemo in, laboriosam incidunt, repudiandae! Aut, accusantium nihil facilis ducimus quas autem
+                fugit odio?</p>
+              <p><a href="#" class="btn btn-primary">Read Bio</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="media pastor d-block text-center">
+            <img src="img/pastor_2.jpg" alt="Image placeholder" class="img-fluid mb-4">
+            <div class="media-body">
+              <h3>Chris Mattwood</h3>
+              <p class="position">Children Trainer</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat vel nam natus dolore fugit, dolores
+                explicabo nemo in, laboriosam incidunt, repudiandae! Aut, accusantium nihil facilis ducimus quas autem
+                fugit odio?</p>
+              <p><a href="#" class="btn btn-primary">Read Bio</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="media pastor d-block text-center">
+            <img src="img/pastor_3.jpg" alt="Image placeholder" class="img-fluid mb-4">
+            <div class="media-body">
+              <h3>Jack Winston</h3>
+              <p class="position">Child Dedication Officer</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat vel nam natus dolore fugit, dolores
+                explicabo nemo in, laboriosam incidunt, repudiandae! Aut, accusantium nihil facilis ducimus quas autem
+                fugit odio?</p>
+              <p><a href="#" class="btn btn-primary">Read Bio</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section pt-5 pb-2">
+    <div class="container">
+      <div class="row mb-5 justify-content-center element-animate">
+        <div class="col-md-12">
+          <span class="section-heading">Recent Sermons</span>
+          <h2>Children Ministry Sermons</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-sm-6 col-lg-4 mb-5">
+
+          <div class="sermon element-animate">
+            <div class="sermon-text">
+              <h2><a href="#">Arise, Shine</a></h2>
+              <p class="sermon-meta">by <a href="#">Luis Matthew</a> on March 28, 2018</p>
+            </div>
+            <div class="player">
+              <audio id="player2" preload="none" controls style="max-width: 100%">
+                <source src="http://www.largesound.com/ashborytour/sound/AshboryBYU.mp3" type="audio/mp3">
+              </audio>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4 mb-5">
+
+          <div class="sermon element-animate">
+            <div class="sermon-text">
+              <h2><a href="#">Filled in Him</a></h2>
+              <p class="sermon-meta">by <a href="#">Luis Matthew</a> on March 28, 2018</p>
+            </div>
+            <div class="player">
+              <audio id="player3" preload="none" controls style="max-width: 100%">
+                <source src="http://www.largesound.com/ashborytour/sound/AshboryBYU.mp3" type="audio/mp3">
+              </audio>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4 mb-5">
+
+          <div class="sermon element-animate">
+            <div class="sermon-text">
+              <h2><a href="#">Jehovah the Creator</a></h2>
+              <p class="sermon-meta">by <a href="#">Luis Matthew</a> on March 28, 2018</p>
+            </div>
+            <div class="player">
+              <audio id="player4" preload="none" controls style="max-width: 100%">
+                <source src="http://www.largesound.com/ashborytour/sound/AshboryBYU.mp3" type="audio/mp3">
+              </audio>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- END section -->
+
+
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-md-4 mb-5">
+          <h3>Misión de Dios en Pasos de Fe</h3>
+          <p class="mb-5">"Y haré de ti una nación grande, y te bendeciré, y engrandeceré tu nombre, y serás bendición.
+            Bendeciré a los que te bendijeren, y a los que te maldijeren maldeciré; y serán benditas en ti
+            todas las familias de la tierra" Génesis 12:2-3</p>
+          <ul class="list-unstyled footer-link d-flex footer-social">
+            <li><a target="_blank" href="https://www.facebook.com/profile.php?id=100009078848002" class="p-2"><span
+                  class="fa fa-twitter"></span></a></li>
+            <li><a target="_blank" href="https://www.facebook.com/profile.php?id=100009078848002" class="p-2"><span
+                  class="fa fa-facebook"></span></a></li>
+            <li><a target="_blank" href="https://www.facebook.com/profile.php?id=100009078848002" class="p-2"><span
+                  class="fa fa-linkedin"></span></a></li>
+            <li><a target="_blank" href="https://www.facebook.com/profile.php?id=100009078848002" class="p-2"><span
+                  class="fa fa-instagram"></span></a></li>
+          </ul>
+
+        </div>
+        <div class="col-md-3 mb-5">
+          <h3>Acceso rápido</h3>
+          <ul class="list-unstyled footer-link">
+            <li><a href="about.html">Quienes somos</a></li>
+            <li><a href="ministeriovarones.html">Ministerios</a></li>
+            <li><a href="events.html">Eventos</a></li>
+            <li><a href="contact.html">Contáctenos</a></li>
+            <li><a href="Biblia.html">Biblia</a></li>
+          </ul>
+        </div>
+        <div class="col-md-5 mb-5">
+          <h3>Información de contacto</h3>
+          <ul class="list-unstyled footer-link">
+            <li class="d-block">
+              <span class="d-block">Dirección:</span>
+              <span class="text-white">Diagonal 40 Sur, 38-54. Barrio Inglés.</span></li>
+            <li class="d-block"><span class="d-block">Teléfono:</span><span class="text-white">+57 (1)255-8967</span></li>
+            <li class="d-block"><span class="d-block">Email:</span><span class="text-white">iglesiacristianapasosdefe@gmail.com</span></li>
+          </ul>
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="col-12 text-md-center text-left">
+          <p>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;
+            <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with
+            <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> <br> Demo Images
+            Unsplash</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- END footer -->
+
+  <!-- loader -->
+  <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+      <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+      <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#f4b214" /></svg></div>
+
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mediaelement@4.2.7/build/mediaelement-and-player.min.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/1ContenidoBiblia.js"></script>
+  <script src="js/2ContenidoBiblia.js"></script>
+  <script src="js/3ContenidoBiblia.js"></script>
+
+  <script>
+
+    var _glbOrigenColaps = false;
+    var _glbLibroActivo = 0;
+    var _glbDimensionesPant = window.screen.availWidth;
+
+    function AbrirTestamento(_this) {
+      var elemento = $(_this)[0].id;
+
+      if (elemento == 'spnAntiguo') {
+        $('#dvAntiguoT').css('display', 'block');
+        $('#dvNuevoT').css('display', 'none');
+      } else if (elemento == 'spnNuevo') {
+        $('#dvAntiguoT').css('display', 'none');
+        $('#dvNuevoT').css('display', 'block');
+      }
+    }
+
+    function PintarCapitulos(_this) {
+      var numLibro = $(_this).attr('noLibro');
+      var cantCap = $(_this).attr('cantCap');
+      
+      if (!_glbOrigenColaps){
+
+        if($("[Parametro='CapitulosBiblia']").length == 0 || _glbLibroActivo != parseInt(numLibro) ) {
+          _glbLibroActivo = parseInt(numLibro);
+
+          if($("[Parametro='CapitulosBiblia']").length > 0) {
+            $("[Parametro='CapitulosBiblia']").remove()
+          }
+
+          if($("[Parametro='OcultarColaps']").length > 0){
+            $("[Parametro='OcultarColaps']").remove()
+          }
+
+          $(_this).removeClass();
+          $(_this).addClass('list-group-item list-group-item list-group-item-warning');
+                            
+
+          $(_this).find('h3').append('<i Parametro="OcultarColaps" class="fa fa-minus-circle" aria-hidden="true" onclick="ColapsarCapitulo(this)" style="margin-left: 67%;"></i>');
+
+           for (x = 1; x <= cantCap; x++) {
+            var ul = $('<ul/>');
+
+            ul.append('<li Parametro="CapitulosBiblia" class="list-group-item list-group-item-action list-group-item-warning" cap="' + x + 
+                      '" cantVer="' + 0 /*ObtenerVersiculo(numLibro, x)*/ + '" onclick="PintarVerisulos(this)"><h5 style="color: #856404">' + 
+                        x + '. ' +
+                      ObtenerTituloCap(x,numLibro) +
+                    '</h5></li>');
+
+           $("[noLibro='" + numLibro + "']").append(ul);
+
+
+
+     // var ul = $('<ul class="nav nav-pills" >');
+
+      // for (y = 1; y <= cantVer; y++) {
+
+      //   ul.append('<li Parametro="gn_' + cap + '" class="nav-link active" style="color:#856404">' +
+      //     ((y < 10) ? '0' + y : y) + '</li>&nbsp;');
+      // }
+
+      // $('#' + tituloDiv).append(ul);
+      // $('#' + tituloDiv).append('<br>');
+
+
+
+          }
+        }
+      }else{
+        _glbOrigenColaps = false;
+      }
+    }
+
+    function PintarVerisulos(_this) {
+
+      var numLibro = $(_this).parent().parent().attr('noLibro');
+      var cap = $(_this).attr('cap');
+      var cantVer = $(_this).attr('cantVer');
+      var tituloDiv = 'dvLibro_' + numLibro + '_Cap_' + cap;
+      var texto;
+
+      if (parseInt(numLibro) >= 1 && parseInt(numLibro) <= 3){
+        texto = ContenidoBiblia1(numLibro,cap);
+      }else if (parseInt(numLibro) >= 4 && parseInt(numLibro) <= 6){
+        texto = ContenidoBiblia2(numLibro,cap);
+      }else if (parseInt(numLibro) >= 7 && parseInt(numLibro) <= 10){
+        texto = ContenidoBiblia3(numLibro,cap);
+      }
+
+      if($('#pTemp').length > 0){
+        $('#pTemp').remove();
+      }
+      if($('#dvContenedorTextoBiblia').length > 0){
+        $('#dvContenedorTextoBiblia').remove();
+      }
+      var parrafo = $('<p id="pTemp">');
+
+      parrafo.append(texto);
+
+      var dvContBiblia = $('<div id="dvContenedorTextoBiblia" style="overflow: scroll;height: 507px;margin-top: 22%">');
+
+      $('#dvContenedorGeneralBiblia').append(dvContBiblia);
+
+      $('#dvContenedorTextoBiblia').append(parrafo);
+
+      if ($('#' + tituloDiv).length > 0) {
+        $('#' + tituloDiv).remove();
+      }
+      $("[Parametro='CapitulosBiblia']").addClass('list-group-item list-group-item-action list-group-item-warning');
+      $(_this).removeClass();
+      $(_this).addClass('list-group-item list-group-item-action list-group-item-active');
+      $(_this).append($('<div OcultarLibro="Amen" id="' + tituloDiv + '">'));
+
+      // var ul = $('<ul class="nav nav-pills" >');
+
+      // for (y = 1; y <= cantVer; y++) {
+
+      //   ul.append('<li Parametro="gn_' + cap + '" class="nav-link active" style="color:#856404">' +
+      //     ((y < 10) ? '0' + y : y) + '</li>&nbsp;');
+      // }
+
+      // $('#' + tituloDiv).append(ul);
+      // $('#' + tituloDiv).append('<br>');
+
+      //ValidarLibrosAbiertos(tituloDiv);
+    }
+
+    function ObtenerVersiculo(_libro, _capitulo) {
+      switch (_libro) {
+        //#region Génesis
+        case '1':
+               if (_capitulo == 1) { return 31; }
+          else if (_capitulo == 2) { return 25; }
+          else if (_capitulo == 3) { return 24; }
+          else if (_capitulo == 4) { return 26; }
+          else if (_capitulo == 5) { return 32; }
+          else if (_capitulo == 6) { return 22; }
+          else if (_capitulo == 7) { return 24; }
+          else if (_capitulo == 8) { return 22; }
+          else if (_capitulo == 9) { return 29; }
+          else if (_capitulo == 10) { return 32; }
+          else if (_capitulo == 11) { return 32; }
+          else if (_capitulo == 12) { return 20; }
+          else if (_capitulo == 13) { return 18; }
+          else if (_capitulo == 14) { return 24; } 
+          else if (_capitulo == 15) { return 21;}
+          else if (_capitulo == 16) { return 16;} 
+          else if (_capitulo == 17) { return 27;} 
+          else if (_capitulo == 18) { return 33;} 
+          else if (_capitulo == 19) { return 38;} 
+          else if (_capitulo == 20) { return 18;} 
+          else if (_capitulo == 21) { return 34;} 
+          else if (_capitulo == 22) { return 24;} 
+          else if (_capitulo == 23) { return 20;} 
+          else if (_capitulo == 24) { return 67;} 
+          else if (_capitulo == 25) { return 34;} 
+          else if (_capitulo == 26) { return 35;} 
+          else if (_capitulo == 27) { return 46;}
+          else if (_capitulo == 28) { return 46;}
+          else if (_capitulo == 29) { return 22;}
+          else if (_capitulo == 30) { return 35;}
+          else if (_capitulo == 31) { return 43;}
+          else if (_capitulo == 32) { return 55;}
+          else if (_capitulo == 33) { return 32;}
+          else if (_capitulo == 34) { return 20;}
+          else if (_capitulo == 35) { return 31;}
+          else if (_capitulo == 36) { return 29;}
+          else if (_capitulo == 37) { return 43;}
+          else if (_capitulo == 38) { return 36;}
+          else if (_capitulo == 39) { return 30;}
+          else if (_capitulo == 40) { return 23;}
+          else if (_capitulo == 41) { return 57;}
+          else if (_capitulo == 42) { return 38;}
+          else if (_capitulo == 43) { return 34;}
+          else if (_capitulo == 44) { return 34;}
+          else if (_capitulo == 45) { return 28;}
+          else if (_capitulo == 46) { return 34;}
+          else if (_capitulo == 47) { return 31;}
+          else if (_capitulo == 48) { return 22;}
+          else if (_capitulo == 49) { return 33;}
+          else if (_capitulo == 50) { return 26;}
+        //#endregion
+        
+        //#region Éxodo
+        case '2':
+               if (_capitulo == 1) { return 22; }
+          else if (_capitulo == 2) { return 25; }
+          else if (_capitulo == 3) { return 22; }
+          else if (_capitulo == 4) { return 31; }
+          else if (_capitulo == 5) { return 23; }
+          else if (_capitulo == 6) { return 30; }
+          else if (_capitulo == 7) { return 25; }
+          else if (_capitulo == 8) { return 32; }
+          else if (_capitulo == 9) { return 35; }
+          else if (_capitulo == 10) { return 29; }
+          else if (_capitulo == 11) { return 10; }
+          else if (_capitulo == 12) { return 51; }
+          else if (_capitulo == 13) { return 22; }
+          else if (_capitulo == 14) { return 31; }
+          else if (_capitulo == 15) { return 27; }
+          else if (_capitulo == 16) { return 36; }
+          else if (_capitulo == 17) { return 16; }
+          else if (_capitulo == 18) { return 27;}
+          else if (_capitulo == 19) { return 25; }
+          else if (_capitulo == 20) { return 26; }
+          else if (_capitulo == 21) { return 36; }
+          else if (_capitulo == 22) { return 31; }
+          else if (_capitulo == 23) { return 33; }
+          else if (_capitulo == 24) { return 18; }
+          else if (_capitulo == 25) { return 40; }
+          else if (_capitulo == 26) { return 37; }
+          else if (_capitulo == 27) { return 21; }
+          else if (_capitulo == 28) { return 43; }
+          else if (_capitulo == 29) { return 46; }
+          else if (_capitulo == 30) { return 38; }
+          else if (_capitulo == 31) { return 18; }
+          else if (_capitulo == 32) { return 35; }
+          else if (_capitulo == 33) { return 23; }
+          else if (_capitulo == 34) { return 35; }
+          else if (_capitulo == 35) { return 35; }
+          else if (_capitulo == 36) { return 38; }
+          else if (_capitulo == 37) { return 29; }
+          else if (_capitulo == 38) { return 31; }
+          else if (_capitulo == 39) { return 43; }
+          else if (_capitulo == 40) { return 38; }
+        //#endregion
+
+        //#region Levítico
+        case '3':
+               if (_capitulo == 1) { return 17;}
+          else if (_capitulo == 2 ) { return 16;}
+          else if (_capitulo == 3 ) { return 17;}
+          else if (_capitulo == 4 ) { return 35;}
+          else if (_capitulo == 5 ) { return 19;}
+          else if (_capitulo == 6 ) { return 30;}
+          else if (_capitulo == 7 ) { return 38;}
+          else if (_capitulo == 8 ) { return 36;}
+          else if (_capitulo == 9 ) { return 24;}
+          else if (_capitulo == 10) { return 20;}
+          else if (_capitulo == 11) { return 47;}
+          else if (_capitulo == 12) { return 8;}
+          else if (_capitulo == 13) { return 59;}
+          else if (_capitulo == 14) { return 57;}
+          else if (_capitulo == 15) { return 33;}
+          else if (_capitulo == 16) { return 34;}
+          else if (_capitulo == 17) { return 16;}
+          else if (_capitulo == 18) { return 30;}
+          else if (_capitulo == 19) { return 37;}
+          else if (_capitulo == 20) { return 27;}
+          else if (_capitulo == 21) { return 24;}
+          else if (_capitulo == 22) { return 33;}
+          else if (_capitulo == 23) { return 44;}
+          else if (_capitulo == 24) { return 23;}
+          else if (_capitulo == 25) { return 55;}
+          else if (_capitulo == 26) { return 46;}
+          else if (_capitulo == 27) { return 34;}
+        //#endregion
+        
+        //#region Números
+        case '4':
+               if (_capitulo == 1) { return 54;}
+          else if (_capitulo == 2 ) { return 34;}
+          else if (_capitulo == 3 ) { return 51;}
+          else if (_capitulo == 4 ) { return 49;}
+          else if (_capitulo == 5 ) { return 31;}
+          else if (_capitulo == 6 ) { return 27;}
+          else if (_capitulo == 7 ) { return 89;}
+          else if (_capitulo == 8 ) { return 26;}
+          else if (_capitulo == 9 ) { return 23;}
+          else if (_capitulo == 10) { return 36;}
+          else if (_capitulo == 11) { return 35;}
+          else if (_capitulo == 12) { return 16;}
+          else if (_capitulo == 13) { return 33;}
+          else if (_capitulo == 14) { return 45;}
+          else if (_capitulo == 15) { return 41;}
+          else if (_capitulo == 16) { return 50;}
+          else if (_capitulo == 17) { return 13;}
+          else if (_capitulo == 18) { return 32;}
+          else if (_capitulo == 19) { return 22;}
+          else if (_capitulo == 20) { return 29;}
+          else if (_capitulo == 21) { return 35;}
+          else if (_capitulo == 22) { return 41;}
+          else if (_capitulo == 23) { return 30;}
+          else if (_capitulo == 24) { return 25;}
+          else if (_capitulo == 25) { return 18;}
+          else if (_capitulo == 26) { return 65;}
+          else if (_capitulo == 27) { return 23;}
+          else if (_capitulo == 28) { return 31;}
+          else if (_capitulo == 29) { return 40;}
+          else if (_capitulo == 30) { return 16;}
+          else if (_capitulo == 31) { return 54;}
+          else if (_capitulo == 32) { return 42;}
+          else if (_capitulo == 33) { return 56;}
+          else if (_capitulo == 34) { return 29;}
+          else if (_capitulo == 35) { return 34;}
+          else if (_capitulo == 36) { return 13;}
+
+
+        //#endregion
+        else {
+            return 0;
+          }
+          break;
+      }
+    }
+
+    function ObtenerTituloCap(_numCap, _libro) {
+      
+      switch (_libro) {
+        //#region Génesis
+        case '1':
+               if (_numCap == 1) { return 'La Creación'; }
+          else if (_numCap == 2) { return 'El hombre en el huerto del Edén'; }
+          else if (_numCap == 3) { return 'Desobediencia del hombre'; }
+          else if (_numCap == 4) { return 'Caín y Abel'; }
+          else if (_numCap == 5) { return 'Los descendientes de Adán'; }
+          else if (_numCap == 6) { return 'La maldad de los hombres'; }
+          else if (_numCap == 7) { return 'El diluvio'; }
+          else if (_numCap == 8) { return '<...>El diluvio'; }
+          else if (_numCap == 9) { return 'Pacto de Dios con Noé'; }
+          else if (_numCap == 10) { return 'Los descendientes de los hijos de Noé'; }
+          else if (_numCap == 11) { return 'La torre de Babel'; }
+          else if (_numCap == 12) { return 'Dios llama a Abram'; }
+          else if (_numCap == 13) { return 'Abram y Lot se separan'; }
+          else if (_numCap == 14) { return 'Abram liberta a Lot'; } 
+          else if (_numCap == 15) { return 'Dios promete a Abram un hijo';}
+          else if (_numCap == 16) { return 'Agar e Ismael';} 
+          else if (_numCap == 17) { return 'La circuncisión, señal del pacto';} 
+          else if (_numCap == 18) { return 'Promesa del nacimiento de Isaac';} 
+          else if (_numCap == 19) { return 'Destrucción de Sodoma y Gomorra';} 
+          else if (_numCap == 20) { return 'Abraham y Abimelec';} 
+          else if (_numCap == 21) { return 'Nacimiento de Isaac';} 
+          else if (_numCap == 22) { return 'Dios ordena a Abraham que sacrifique a Isaac';} 
+          else if (_numCap == 23) { return 'Muerte y sepultura de Sara';} 
+          else if (_numCap == 24) { return 'Abraham busca esposa para Isaac';} 
+          else if (_numCap == 25) { return 'Los descendientes de Abraham y Cetura';} 
+          else if (_numCap == 26) { return 'Isaac en Gerar';} 
+          else if (_numCap == 27) { return 'Jacob obtiene la bendición de Isaac';}
+          else if (_numCap == 28) { return 'Dios se aparece a Jacob en Bet-el';}
+          else if (_numCap == 29) { return 'Jacob sirve a Labán por Raquel y Lea';}
+          else if (_numCap == 30) { return 'Tretas de Jacob y de Labán';}
+          else if (_numCap == 31) { return 'Jacob huye de Labán';}
+          else if (_numCap == 32) { return 'Jacob se prepara para el encuentro con Esaú';}
+          else if (_numCap == 33) { return 'Reconciliación entre Jacob y Esaú';}
+          else if (_numCap == 34) { return 'La deshonra de Dina vengada';}
+          else if (_numCap == 35) { return 'Dios bendice a Jacob en Bet-el';}
+          else if (_numCap == 36) { return 'Los descendientes de Esaú';}
+          else if (_numCap == 37) { return 'José es vendido por sus hermanos';}
+          else if (_numCap == 38) { return 'Judá y Tamar';}
+          else if (_numCap == 39) { return 'José y la esposa de Potifar';}
+          else if (_numCap == 40) { return 'José interpreta dos sueños';}
+          else if (_numCap == 41) { return 'José interpreta el sueño de Faraón';}
+          else if (_numCap == 42) { return 'Los hermanos de José vienen por alimentos';}
+          else if (_numCap == 43) { return 'Los hermanos de José regresan con Benjamín';}
+          else if (_numCap == 44) { return 'La copa de José';}
+          else if (_numCap == 45) { return 'José se da a conocer a sus hermanos';}
+          else if (_numCap == 46) { return 'Jacob y su familia en Egipto';}
+          else if (_numCap == 47) { return '<...> Jacob y su familia en Egipto';}
+          else if (_numCap == 48) { return 'Jacob bendice a Efraín y a Manasés';}
+          else if (_numCap == 49) { return 'Profecía de Jacob acerca de sus hijos';}
+          else if (_numCap == 50) { return 'Muerte de José';}
+        //#endregion
+        
+        //#region Éxodo
+        case '2':
+               if (_numCap == 1) { return 'Aflicción de los israelitas en Egipto'; }
+          else if (_numCap == 2) { return 'Nacimiento de Moisés'; }
+          else if (_numCap == 3) { return 'Llamamiento de Moisés'; }
+          else if (_numCap == 4) { return 'Moisés vuelve a Egipto'; }
+          else if (_numCap == 5) { return 'Moisés y Aarón ante Faraón'; }
+          else if (_numCap == 6) { return '<...>Moisés y Aarón ante Faraón'; }
+          else if (_numCap == 7) { return 'La vara de Aarón'; }
+          else if (_numCap == 8) { return 'La plaga de ranas'; }
+          else if (_numCap == 9) { return 'La plaga en el ganado'; }
+          else if (_numCap == 10) { return 'La plaga de langostas'; }
+          else if (_numCap == 11) { return 'Anunciada la muerte de los primogénitos'; }
+          else if (_numCap == 12) { return 'La Pascua'; }
+          else if (_numCap == 13) { return 'Consagración de los primogénitos'; }
+          else if (_numCap == 14) { return 'Los israelitas cruzan el Mar Rojo'; } 
+          else if (_numCap == 15) { return 'Cántico de Moisés y de María';}
+          else if (_numCap == 16) { return 'Dios da el maná';} 
+          else if (_numCap == 17) { return 'Agua de la roca';} 
+          else if (_numCap == 18) { return 'Jetro visita a Moisés';} 
+          else if (_numCap == 19) { return 'Israel en Sinaí';} 
+          else if (_numCap == 20) { return 'Los Diez Mandamientos';} 
+          else if (_numCap == 21) { return 'Leyes sobre los esclavos';} 
+          else if (_numCap == 22) { return 'Leyes sobre la restitución';} 
+          else if (_numCap == 23) { return 'Las tres fiestas anuales';} 
+          else if (_numCap == 24) { return 'Moisés y los ancianos en el Monte Sinaí';} 
+          else if (_numCap == 25) { return 'La ofrenda para el tabernáculo';} 
+          else if (_numCap == 26) { return 'El tabernáculo';} 
+          else if (_numCap == 27) { return 'El altar de bronce';}
+          else if (_numCap == 28) { return 'Las vestiduras de los sacerdotes';}
+          else if (_numCap == 29) { return 'Consagración de Aarón y de sus hijos';}
+          else if (_numCap == 30) { return 'El altar del incienso';}
+          else if (_numCap == 31) { return 'Llamamiento de Bezaleel y de Aholiab';}
+          else if (_numCap == 32) { return '<...>Llamamiento de Bezaleel y de Aholiab';}
+          else if (_numCap == 33) { return 'La presencia de Dios prometida';}
+          else if (_numCap == 34) { return 'El pacto renovado';}
+          else if (_numCap == 35) { return 'Reglamento del día de reposo';}
+          else if (_numCap == 36) { return 'Moisés suspende la ofrenda del pueblo';}
+          else if (_numCap == 37) { return 'Mobiliario del tabernáculo';}
+          else if (_numCap == 38) { return 'El atrio del tabernáculo';}
+          else if (_numCap == 39) { return 'Hechura de las vestiduras de los sacerdotes';}
+          else if (_numCap == 40) { return 'Moisés erige el tabernáculo';}
+        //#endregion
+        
+        //#region Levítico
+        case '3':
+               if (_numCap == 1) { return 'Los holocaustos'; }
+          else if (_numCap == 2) { return 'Las ofrendas'; }
+          else if (_numCap == 3) { return 'Ofrendas de paz'; }
+          else if (_numCap == 4) { return 'Ofrendas por el pecado'; }
+          else if (_numCap == 5) { return 'Ofrendas expiatorias'; }
+          else if (_numCap == 6) { return 'Leyes de los sacrificios'; }
+          else if (_numCap == 7) { return '<...>Leyes de los sacrificios'; }
+          else if (_numCap == 8) { return 'Consagración de Aarón y de sus hijos'; }
+          else if (_numCap == 9) { return 'Los sacrificios de Aarón'; }
+          else if (_numCap == 10) { return 'El pecado de Nadab y Abiú'; }
+          else if (_numCap == 11) { return 'Animales limpios e inmundos'; }
+          else if (_numCap == 12) { return 'La purificación de la mujer después del parto'; }
+          else if (_numCap == 13) { return 'Leyes acerca de la lepra'; }
+          else if (_numCap == 14) { return '<...>Leyes acerca de la lepra'; } 
+          else if (_numCap == 15) { return 'Impurezas físicas';}
+          else if (_numCap == 16) { return 'El día de la expiación';} 
+          else if (_numCap == 17) { return 'El santuario único';} 
+          else if (_numCap == 18) { return 'Actos de inmoralidad prohibidos';} 
+          else if (_numCap == 19) { return 'Leyes de santidad y de justicia';} 
+          else if (_numCap == 20) { return 'Penas por actos de inmoralidad';} 
+          else if (_numCap == 21) { return 'Santidad de los sacerdotes';} 
+          else if (_numCap == 22) { return 'Santidad de las ofrendas';} 
+          else if (_numCap == 23) { return 'Las fiestas solemnes';} 
+          else if (_numCap == 24) { return 'Aceite para las lámparas';} 
+          else if (_numCap == 25) { return 'El año de reposo de la tierra y el año del jubileo';} 
+          else if (_numCap == 26) { return 'Bendiciones de la obediencia';} 
+          else if (_numCap == 27) { return 'Cosas consagradas a Dios';}
+
+        //#endregion
+
+        //#region Números
+        case '4':
+               if (_numCap == 1 ) { return 'Censo de Israel en Sinaí'; }
+          else if (_numCap == 2 ) { return 'Campamentos y jefes de las tribus'; }
+          else if (_numCap == 3 ) { return 'Censo y deberes de los levitas'; }
+          else if (_numCap == 4 ) { return 'Tareas de los levitas'; }
+          else if (_numCap == 5 ) { return 'Todo inmundo es echado fuera del campamento'; }
+          else if (_numCap == 6 ) { return 'El voto de los nazareos'; }
+          else if (_numCap == 7 ) { return 'Ofrendas para la dedicación del altar'; }
+          else if (_numCap == 8 ) { return 'Aarón enciende las lámparas'; }
+          else if (_numCap == 9 ) { return 'Celebración de la pascua'; }
+          else if (_numCap == 10) { return 'Las trompetas de plata'; }
+          else if (_numCap == 11) { return 'Jehová envía codornices'; }
+          else if (_numCap == 12) { return 'María y Aarón murmuran contra Moisés'; }
+          else if (_numCap == 13) { return 'Misión de los doce espías'; }
+          else if (_numCap == 14) { return 'Los israelitas se rebelan contra Jehová'; }
+          else if (_numCap == 15) { return 'Leyes sobre las ofrendas'; }
+          else if (_numCap == 16) { return 'La rebelión de Coré'; }
+          else if (_numCap == 17) { return 'La vara de Aarón florece'; }
+          else if (_numCap == 18) { return 'Sostenimiento de sacerdotes y levitas'; }
+          else if (_numCap == 19) { return 'La purificación de los inmundos'; }
+          else if (_numCap == 20) { return 'Agua de la roca'; }
+          else if (_numCap == 21) { return 'El rey de Arad ataca a Israel'; }
+          else if (_numCap == 22) { return 'Balac manda llamar a Balaam'; }
+          else if (_numCap == 23) { return '<...> Balac manda llamar a Balaam'; }
+          else if (_numCap == 24) { return 'Profecía de Balaam'; }
+          else if (_numCap == 25) { return 'Israel acude a Baal-peor'; }
+          else if (_numCap == 26) { return 'Censo del pueblo en Moab'; }
+          else if (_numCap == 27) { return 'Petición de las hijas de Zelofehad'; }
+          else if (_numCap == 28) { return 'Las ofrendas diarias'; }
+          else if (_numCap == 29) { return '<...> Las ofrendas diarias'; }
+          else if (_numCap == 30) { return 'Ley de los votos'; }
+          else if (_numCap == 31) { return 'Venganza de Israel contra Madián'; }
+          else if (_numCap == 32) { return 'Rubén y Gad se establecen al oriente del Jordán'; }
+          else if (_numCap == 33) { return 'Jornadas de Israel desde Egipto hasta el Jordán'; }
+          else if (_numCap == 34) { return '<...> Jornadas de Israel desde Egipto hasta el Jordán'; }
+          else if (_numCap == 35) { return 'Herencia de los levitas'; }
+          else if (_numCap == 36) { return 'Ley del casamiento de las herederas'; }
+        //#endregion
+        
+        //#region Deuteronomio
+        case '5':
+               if (_numCap == 1 ) { return 'Moisés recuerda a Israel las promesas de Jehová en Horeb'; }
+          else if (_numCap == 2 ) { return 'Los años en el desierto'; }
+          else if (_numCap == 3 ) { return 'Israel derrota a Og rey de Basán'; }
+          else if (_numCap == 4 ) { return 'Moisés exhorta a la obediencia'; }
+          else if (_numCap == 5 ) { return 'Los Diez Mandamientos'; }
+          else if (_numCap == 6 ) { return 'El gran mandamiento'; }
+          else if (_numCap == 7 ) { return 'Advertencias contra la idolatría de Canaán'; }
+          else if (_numCap == 8 ) { return 'La buena tierra que han de poseer'; }
+          else if (_numCap == 9 ) { return 'Dios destruirá a las naciones de Canaán'; }
+          else if (_numCap == 10) { return 'El pacto renovado'; }
+          else if (_numCap == 11) { return 'La grandeza de Jehová'; }
+          else if (_numCap == 12) { return 'El santuario único'; }
+          else if (_numCap == 13) { return '<...> El santuario único'; }
+          else if (_numCap == 14) { return 'Animales limpios e inmundos'; }
+          else if (_numCap == 15) { return 'El año de remisión'; }
+          else if (_numCap == 16) { return 'Fiestas anuales'; }
+          else if (_numCap == 17) { return 'Instrucciones acerca de un rey'; }
+          else if (_numCap == 18) { return 'Las porciones de los levitas'; }
+          else if (_numCap == 19) { return 'Las ciudades de refugio'; }
+          else if (_numCap == 20) { return 'Leyes sobre la guerra'; }
+          else if (_numCap == 21) { return 'Expiación de un asesinato cuyo autor se desconoce'; }
+          else if (_numCap == 22) { return 'Leyes sobre la castidad'; }
+          else if (_numCap == 23) { return 'Los excluidos de la congregación'; }
+          else if (_numCap == 24) { return '<...> Los excluidos de la congregación'; }
+          else if (_numCap == 25) { return 'Orden de exterminar a Amalec'; }
+          else if (_numCap == 26) { return 'Primicias y diezmos'; }
+          else if (_numCap == 27) { return 'Orden de escribir la ley en piedras sobre el Monte Ebal'; }
+          else if (_numCap == 28) { return 'Bendiciones de la obediencia'; }
+          else if (_numCap == 29) { return 'Pacto de Jehová con Israel en Moab'; }
+          else if (_numCap == 30) { return 'Condiciones para la restauración y la bendición'; }
+          else if (_numCap == 31) { return 'Josué es instalado como sucesor de Moisés'; }
+          else if (_numCap == 32) { return 'Se le permite a Moisés contemplar la tierra de Canaán'; }
+          else if (_numCap == 33) { return 'Moisés bendice a las doce tribus de Israel'; }
+          else if (_numCap == 34) { return 'Muerte y sepultura de Moisés'; }
+          //#endregion
+        
+        //#region Josué
+        case '6':
+              if (_numCap == 1 ) { return 'Preparativos para la conquista'; }
+          else if (_numCap == 2 ) { return 'Josué envía espías a Jericó'; }
+          else if (_numCap == 3 ) { return 'El paso del Jordán'; }
+          else if (_numCap == 4 ) { return 'Las doce piedras tomadas del Jordán'; }
+          else if (_numCap == 5 ) { return 'La circuncisión y la pascua en Gilgal'; }
+          else if (_numCap == 6 ) { return 'La toma de Jericó'; }
+          else if (_numCap == 7 ) { return 'El pecado de Acán'; }
+          else if (_numCap == 8 ) { return 'Toma y destrucción de Hai'; }
+          else if (_numCap == 9 ) { return 'Astucia de los gabaonitas'; }
+          else if (_numCap == 10) { return 'Derrota de los amorreos'; }
+          else if (_numCap == 11) { return 'Derrota de la alianza de Jabín'; }
+          else if (_numCap == 12) { return 'Reyes derrotados por Moisés'; }
+          else if (_numCap == 13) { return 'Tierra aún sin conquistar'; }
+          else if (_numCap == 14) { return 'Canaán repartida por suerte'; }
+          else if (_numCap == 15) { return 'El territorio de Judá'; }
+          else if (_numCap == 16) { return 'Territorio de Efraín y de Manasés'; }
+          else if (_numCap == 17) { return '<...> Territorio de Efraín y de Manasés'; }
+          else if (_numCap == 18) { return 'Territorios de las demás tribus'; }
+          else if (_numCap == 19) { return '<...> Territorios de las demás tribus'; }
+          else if (_numCap == 20) { return 'Josué señala ciudades de refugio'; }
+          else if (_numCap == 21) { return 'Ciudades de los levitas'; }
+          else if (_numCap == 22) { return 'El altar junto al Jordán'; }
+          else if (_numCap == 23) { return 'Exhortación de Josué al pueblo'; }
+          else if (_numCap == 24) { return 'Discurso de despedida de Josué'; }
+        //#endregion 
+        
+        //#region Jueces
+        case '7':
+               if (_numCap == 1 ) { return 'Judá y Simeón capturan a Adoni-bezec'; }
+          else if (_numCap == 2 ) { return 'El ángel de Jehová en Boquim'; }
+          else if (_numCap == 3 ) { return 'Naciones que fueron dejadas para probar a Israel'; }
+          else if (_numCap == 4 ) { return 'Débora y Barac derrotan a Sísara'; }
+          else if (_numCap == 5 ) { return 'Cántico de Débora y de Barac'; }
+          else if (_numCap == 6 ) { return 'Llamamiento de Gedeón'; }
+          else if (_numCap == 7 ) { return 'Gedeón derrota a los madianitas'; }
+          else if (_numCap == 8 ) { return 'Gedeón captura a los reyes de Madián'; }
+          else if (_numCap == 9 ) { return 'Reinado de Abimelec'; }
+          else if (_numCap == 10) { return 'Tola y Jair juzgan a Israel'; }
+          else if (_numCap == 11) { return 'Jefté liberta a Israel de los amonitas'; }
+          else if (_numCap == 12) { return 'Ibzán, Elón y Abdón, jueces de Israel'; }
+          else if (_numCap == 13) { return 'Nacimiento de Sansón'; }
+          else if (_numCap == 14) { return 'Sansón y la mujer filistea de Timnat'; }
+          else if (_numCap == 15) { return 'Sansón derrota a los filisteos en Lehi'; }
+          else if (_numCap == 16) { return 'Sansón en Gaza'; }
+          else if (_numCap == 17) { return 'Las imágenes y el sacerdote de Micaía'; }
+          else if (_numCap == 18) { return 'Micaía y los hombres de Dan'; }
+          else if (_numCap == 19) { return 'El levita y su concubina'; }
+          else if (_numCap == 20) { return 'La guerra contra Benjamín'; }
+          else if (_numCap == 21) { return 'Mujeres para los benjamitas'; }
+        //#endregion  
+        
+        //#region Rut
+        case '8':
+               if (_numCap == 1 ) { return 'Rut y Noemí'; }
+          else if (_numCap == 2 ) { return 'Rut recoge espigas en el campo de Booz'; }
+          else if (_numCap == 3 ) { return 'Rut y Booz en la era'; }
+          else if (_numCap == 4 ) { return 'Booz se casa con Rut'; }
+        //#endregion
+        
+        //#region 1 Samuel
+        case '9':
+               if (_numCap == 1 ) { return 'Nacimiento de Samuel'; }
+          else if (_numCap == 2 ) { return 'Cántico de Ana'; }
+          else if (_numCap == 3 ) { return 'Jehová llama a Samuel'; }
+          else if (_numCap == 4 ) { return 'Los filisteos capturan el arca'; }
+          else if (_numCap == 5 ) { return 'El arca en tierra de los filisteos'; }
+          else if (_numCap == 6 ) { return 'Los filisteos devuelven el arca'; }
+          else if (_numCap == 7 ) { return 'Samuel, juez de Israel'; }
+          else if (_numCap == 8 ) { return 'Israel pide rey'; }
+          else if (_numCap == 9 ) { return 'Saúl es elegido rey'; }
+          else if (_numCap == 10) { return '<...> Saúl es elegido rey'; }
+          else if (_numCap == 11) { return 'Saúl derrota a los amonitas'; }
+          else if (_numCap == 12) { return 'Discurso de Samuel al pueblo'; }
+          else if (_numCap == 13) { return 'Guerra contra los filisteos'; }
+          else if (_numCap == 14) { return '<...> Guerra contra los filisteos'; }
+          else if (_numCap == 15) { return 'Saúl desobedece y es desechado'; }
+          else if (_numCap == 16) { return 'Samuel unge a David'; }
+          else if (_numCap == 17) { return 'David mata a Goliat'; }
+          else if (_numCap == 18) { return 'Pacto de Jonatán y David'; }
+          else if (_numCap == 19) { return 'Saúl procura matar a David'; }
+          else if (_numCap == 20) { return 'Amistad de David y Jonatán'; }
+          else if (_numCap == 21) { return 'David huye de Saúl'; }
+          else if (_numCap == 22) { return 'Saúl mata a los sacerdotes de Nob'; }
+          else if (_numCap == 23) { return 'David en el desierto'; }
+          else if (_numCap == 24) { return 'David perdona la vida a Saúl en En-gadi'; }
+          else if (_numCap == 25) { return 'David y Abigail'; }
+          else if (_numCap == 26) { return 'David perdona la vida a Saúl en Zif'; }
+          else if (_numCap == 27) { return 'David entre los filisteos'; }
+          else if (_numCap == 28) { return 'Saúl y la adivina de Endor'; }
+          else if (_numCap == 29) { return 'Los filisteos desconfían de David'; }
+          else if (_numCap == 30) { return 'David derrota a los amalecitas'; }
+          else if (_numCap == 31) { return 'Muerte de Saúl y de sus hijos'; }
+        //#endregion
+        
+        //#region 2 Samuel
+        case '10':
+               if (_numCap == 1 ) { return 'David oye de la muerte de Saúl'; }
+          else if (_numCap == 2 ) { return 'David es proclamado rey de Judá'; }
+          else if (_numCap == 3 ) { return 'Hijos de David nacidos en Hebrón'; }
+          else if (_numCap == 4 ) { return 'Is-boset es asesinado'; }
+          else if (_numCap == 5 ) { return 'David es proclamado rey de Israel'; }
+          else if (_numCap == 6 ) { return 'David intenta llevar el arca a Jerusalén'; }
+          else if (_numCap == 7 ) { return 'Pacto de Dios con David'; }
+          else if (_numCap == 8 ) { return 'David extiende sus dominios'; }
+          else if (_numCap == 9 ) { return 'Bondad de David hacia Mefi-boset'; }
+          else if (_numCap == 10) { return 'Derrotas de amonitas y sirios'; }
+          else if (_numCap == 11) { return 'David y Betsabé'; }
+          else if (_numCap == 12) { return 'Natán amonesta a David'; }
+          else if (_numCap == 13) { return 'Amnón y Tamar'; }
+          else if (_numCap == 14) { return 'Joab procura el regreso de Absalón'; }
+          else if (_numCap == 15) { return 'Absalón se subleva contra David'; }
+          else if (_numCap == 16) { return '<...> Absalón se subleva contra David'; }
+          else if (_numCap == 17) { return 'Consejos de Ahitofel y de Husai'; }
+          else if (_numCap == 18) { return 'Muerte de Absalón'; }
+          else if (_numCap == 19) { return 'David vuelve a Jerusalén'; }
+          else if (_numCap == 20) { return 'Sublevación de Seba'; }
+          else if (_numCap == 21) { return 'Venganza de los gabaonitas'; }
+          else if (_numCap == 22) { return 'Cántico de liberación de David'; }
+          else if (_numCap == 23) { return 'Ultimas palabras de David'; }
+          else if (_numCap == 24) { return 'David censa al pueblo'; }
+        //#endregion
+        else {
+            return 0;
+          }
+          break;
+      }
+    }
+
+    function ColapsarCapitulo(_this){
+
+      if($("[Parametro='CapitulosBiblia']").length > 0) {
+        $("[Parametro='CapitulosBiblia']").remove();
+      }
+
+      $(_this).remove();
+
+      _glbOrigenColaps = true;
+}
+
+    function ValidarLibrosAbiertos(nombreDiv) {
+
+      $("[OcultarLibro='Amen']").css('display', 'none');
+      $('#' + nombreDiv).css('display', 'block');
+    }
+
+    document.addEventListener('DOMContentLoaded', function () {
+
+      var mediaElements = document.querySelectorAll('video, audio'), total = mediaElements.length;
+
+      for (var i = 0; i < total; i++) {
+        new MediaElementPlayer(mediaElements[i], {
+          pluginPath: 'https://cdn.jsdelivr.net/npm/mediaelement@4.2.7/build/',
+          shimScriptAccess: 'always',
+          success: function () {
+            var target = document.body.querySelectorAll('.player'), targetTotal = target.length;
+            for (var j = 0; j < targetTotal; j++) {
+              target[j].style.visibility = 'visible';
+            }
+          }
+        });
+      }
+    });
+  </script>
+</body>
+
+</html>
+
+<!-- 
+//#region Números
+case '4':
+       if (_numCap == 1 ) { return 'titulo'; }
+  else if (_numCap == 2 ) { return 'titulo'; }
+  else if (_numCap == 3 ) { return 'titulo'; }
+  else if (_numCap == 4 ) { return 'titulo'; }
+  else if (_numCap == 5 ) { return 'titulo'; }
+  else if (_numCap == 6 ) { return 'titulo'; }
+  else if (_numCap == 7 ) { return 'titulo'; }
+  else if (_numCap == 8 ) { return 'titulo'; }
+  else if (_numCap == 9 ) { return 'titulo'; }
+  else if (_numCap == 10) { return 'titulo'; }
+  else if (_numCap == 11) { return 'titulo'; }
+  else if (_numCap == 12) { return 'titulo'; }
+  else if (_numCap == 13) { return 'titulo'; }
+  else if (_numCap == 14) { return 'titulo'; }
+  else if (_numCap == 15) { return 'titulo'; }
+  else if (_numCap == 16) { return 'titulo'; }
+  else if (_numCap == 17) { return 'titulo'; }
+  else if (_numCap == 18) { return 'titulo'; }
+  else if (_numCap == 19) { return 'titulo'; }
+  else if (_numCap == 20) { return 'titulo'; }
+  else if (_numCap == 21) { return 'titulo'; }
+  else if (_numCap == 22) { return 'titulo'; }
+  else if (_numCap == 23) { return 'titulo'; }
+  else if (_numCap == 24) { return 'titulo'; }
+  else if (_numCap == 25) { return 'titulo'; }
+  else if (_numCap == 26) { return 'titulo'; }
+  else if (_numCap == 27) { return 'titulo'; }
+  else if (_numCap == 28) { return 'titulo'; }
+  else if (_numCap == 29) { return 'titulo'; }
+  else if (_numCap == 30) { return 'titulo'; }
+  else if (_numCap == 31) { return 'titulo'; }
+  else if (_numCap == 32) { return 'titulo'; }
+  else if (_numCap == 33) { return 'titulo'; }
+  else if (_numCap == 34) { return 'titulo'; }
+  else if (_numCap == 35) { return 'titulo'; }
+  else if (_numCap == 36) { return 'titulo'; }
+  else if (_numCap == 37) { return 'titulo'; }
+  else if (_numCap == 38) { return 'titulo'; }
+  else if (_numCap == 39) { return 'titulo'; }
+  else if (_numCap == 40) { return 'titulo'; }
+  else if (_numCap == 41) { return 'titulo'; }
+  else if (_numCap == 42) { return 'titulo'; }
+  else if (_numCap == 43) { return 'titulo'; }
+  else if (_numCap == 44) { return 'titulo'; }
+  else if (_numCap == 45) { return 'titulo'; }
+  else if (_numCap == 46) { return 'titulo'; }
+  else if (_numCap == 47) { return 'titulo'; }
+  else if (_numCap == 48) { return 'titulo'; }
+  else if (_numCap == 49) { return 'titulo'; }
+  else if (_numCap == 50) { return 'titulo'; }
+  else if (_numCap == 51) { return 'titulo'; }
+//#endregion -->
